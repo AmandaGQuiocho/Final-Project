@@ -51,8 +51,14 @@ float:left;
 margin-left: 45px;
 margin-right: 15px;
 width: 500px;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease in-out;
 }
 
+img#B:hover{
+	transform: scale(1) rotate(-360deg) translate(30px, 30px)
+}
 img#C {
 position: absolute;
 width: 100%;
