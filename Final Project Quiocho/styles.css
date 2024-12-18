@@ -17,7 +17,6 @@ h2{
 }
 
 
-
 .cuh{
     clear: left;
 	padding: 20px;
@@ -37,13 +36,15 @@ h2{
 }
 
 
-
-img#A {
-position: absolute;
-top: 2%;
-left: 2%; 
-width: 54px;
+.sprite {
+	background: url('pics/world.webp') no-repeat -381px -15px;
+	width: 54px;
+	height: 54px;
+	position: absolute;
+	top: 2%;
+	left: 2%; 
 }
+
 
 img#B{
 position: relative;
@@ -70,6 +71,62 @@ position: relative;
 float: right;
 width: 500px;
 height: 350px;
+padding-left: 5px;
+}
+
+img[src^="pics/"] {
+position: relative;
+float: right;
+width: 350px;
+height: 350px;
+padding-left: 5px;
+}
+
+
+img#F {
+position: relative;
+float: right;
+width: 350px;
+height: 350px;
+right: 2%;
+margin: 3px;
+}
+li:nth-child(2) {
+color: red;
+font-weight: bold;
+}
+.image-border-sentence{
+width: 400px;
+height: 500px;
+border: 10px solid transparent;
+padding: 20px;
+border-image:url('pics/koala.webp') 30 round;
+}
+
+.sprite {
+background: url('pics/world.webp') no-repeat -7px -15px;
+width: 505px;
+height: 226px;
+animation: varName 5s steps(4) infinite;
+float: right;
+top: 115%;
+}
+@keyframes varName {
+    0% {
+        background-position: 0 0;  /* Display first icon */
+    }
+    25% {
+        background-position: -505px 0; /* Display second icon */
+    }
+    50% {
+        background-position: -1010px 0; /* Display third icon */
+    }
+    75% {
+        background-position: -1515px 0; /* Display fourth icon */
+    }
+    100% {
+        background-position: 0 0; /* Back to first icon */
+    }
 }
 
 .text {
