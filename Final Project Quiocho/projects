@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>A Take On Climate Change</title>
+</head>
+
+<body>
+ <div class="sprite"></div>
+<div class="fade-in-text">
+	<h1>How Do We Help?</h1>
+</div>
+	<hr>
+    <nav class="navbar">
+        <ul>
+            <li><a href="file:///C:/Users/Amanda/Documents/Final%20Project%20Quiocho/main.html">Home</a></li>
+            <li><a href="file:///C:/Users/Amanda/Documents/Final%20Project%20Quiocho/abt.html">Climate Change?</a></li>
+            <li><a href="file:///C:/Users/Amanda/Documents/Final%20Project%20Quiocho/projects.html">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+	<hr>
+	
+<img src="pics/koala.webp">	
+
+<div class="fade-in-text">
+	<div class="cuh">
+	Many projects that aim to fix and address problems connected to climate change have already been conducted. An example of this is "Regenerate Australia"-- a project that hopes to raise money
+	for the restoration of Australia's ecostsyems after the wild bushfires during the years 2019-2020. Though not all of us may be able to launch or participate in huge projects such as Regenerate
+	Australia, it is important to know what we are capable of. Joining small fundraisers for cleaning coastal roads or beaches, conserving energy, trying to use less machines who's byproducts may harm
+	the atmosphere already make a huge impact. With this, here are some extraordinary projects created that were made for the betterment of our planet:
+	</div>
+</div>
+
+       <ul>
+            <li><a href="https://www.pmi.org/most-influential-projects-2021/50-most-influential-projects-2021/business-alliance-to-scale-climate-solutions">Business Aliance to Scale Climate Solutions</a></li>
+            <li><a href="https://www.pmi.org/most-influential-projects-2021/50-most-influential-projects-2021/regenerate-australia">Regenerate Australia</a></li>
+            <li><a href="https://www.pmi.org/most-influential-projects-2021/50-most-influential-projects-2021/galapagos-islands-rewilding">Galapagos Islands Rewilding</a></li>
+        </ul>
+		
+
+<p><span class="image-border-sentence">Small Projects Cause Big Changes.</span></p>
+</body>
+</html>
+
+	
