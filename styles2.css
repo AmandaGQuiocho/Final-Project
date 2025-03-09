@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('pics/greenhouse.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.quiz {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #A9A9A9;
+}
+
+#op {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.op {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.correct { background-color: lightgreen; }
+.incorrect { background-color: lightcoral; }
