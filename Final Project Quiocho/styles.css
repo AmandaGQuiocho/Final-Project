@@ -157,4 +157,5 @@ img#B {
 }
 
 img#B:hover {
-    transform: scale(1) rotate(-360deg) translate(30
+    transform: rotate(360deg);
+}
