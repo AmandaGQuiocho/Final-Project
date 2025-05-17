@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join the Change</title>
+  <link rel="stylesheet" href="mystyles.css" />
+</head>
+<body>
+  <header>
+    <h1>
+  <img src="pics/ert.png" alt="Logo" class="logo-img" />
+  Join The Movement
+</h1>
+
+    <p>Advocating for a clean planet and open minds.</p>
+  </header>
+  
+   <nav class="navbar">
+    <ul>
+      <li><a href="main.html">Home</a></li>
+      <li><a href="abt.html">Climate Change?</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="Quiz.html">Quiz Time</a></li>
+	  <li><a href="project_signup_quiocho.html">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <form id="signupForm">
+    <label>First Name <input type="text" name="fn" required /></label>
+    <label>Last Name <input type="text" name="ln" required /></label>
+
+    <fieldset>
+      <legend>Sex</legend>
+      <label><input type="radio" name="sex" value="m" required /> Male</label>
+      <label><input type="radio" name="sex" value="f" required /> Female</label>
+      <label><input type="radio" name="sex" value="no" required /> Prefer not to say</label>
+    </fieldset>
+
+    <label>Email Address <input type="email" name="email" required /></label>
+    <label>Password <input type="password" name="pass" required /></label>
+    <label>Contact Number <input type="tel" name="contact" /></label>
+    <label>Why you’re supporting our campaign <textarea name="reason" required></textarea></label>
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
