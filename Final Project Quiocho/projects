@@ -11,14 +11,17 @@
 	<h1>How Do We Help?</h1>
 </div>
 	<hr>
-    <nav class="navbar">
-        <ul>
-            <li><a href="file:///C:/Users/Amanda/Documents/Final%20Project%20Quiocho/main.html">Home</a></li>
-            <li><a href="file:///C:/Users/Amanda/Documents/Final%20Project%20Quiocho/abt.html">Climate Change?</a></li>
-            <li><a href="file:///C:/Users/Amanda/Documents/Final%20Project%20Quiocho/projects.html">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+      <nav class="navbar">
+    <ul>
+      <li><a href="main.html">Home</a></li>
+      <li><a href="abt.html">Climate Change?</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="Quiz.html">Quiz Time</a></li>
+	  <li><a href="project_signup_quiocho.html">Sign Up</a></li>
+    </ul>
+  </nav>
+
+
 	<hr>
 	
 <img src="pics/koala.webp">	
